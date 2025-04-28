@@ -34,7 +34,7 @@ with open(out_file, 'w') as f:
     json.dump(urls_to_keep, f, indent=2)
 
 
-print(f"Saved {len(urls_to_keep)} urls to {out_file}. Enjoy PB!")
+print(f"Saved {len(urls_to_keep)} urls to {out_file}.")
 
 # print(len(set_of_primary_accession))
 # print(data)
