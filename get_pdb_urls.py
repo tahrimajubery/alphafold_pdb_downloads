@@ -36,7 +36,7 @@ def main():
                     pdb_url = f"https://alphafold.ebi.ac.uk/files/{entryId}-model_v4.pdb"
                     file.write(pdb_url + "\n")
             
-            # Add a small delay between requests to be nice to the server
+            # Add a small delay between requests 
             time.sleep(1)
             
             print(f"Processed {len(docs)} records")
